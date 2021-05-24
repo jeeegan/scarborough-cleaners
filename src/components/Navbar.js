@@ -2,9 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar fixed-top navbar-light bg-white">
-      <div class="container-fluid">
-        <span class="navbar-brand my-2 h1 text-dark">Scarborough Cleaners</span>
+    <nav className="navbar fixed-top navbar-light bg-dark">
+      <div className="container-fluid">
+        <span className="navbar-brand my-2 h1 text-white">
+          Scarborough Cleaners
+        </span>
       </div>
     </nav>
   );
