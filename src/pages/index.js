@@ -5,10 +5,12 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import SEO from "../components/SEO";
 
 const IndexPage = () => {
   return (
     <>
+      <SEO />
       <Navbar />
       <Hero />
       <About />
